@@ -1,16 +1,16 @@
 var React = require("react");
-var Paragraph = require("./paragraph_component/paragraph.jsx");
-var Title = require("./h1_component/h1.jsx");
+var Paragraph = require("./components/paragraph/paragraph.jsx");
+var Title = require("./components/h1/h1.jsx");
 
 var Test = React.createClass({
     render: function() {
         return (
             <div>
                 <Title>
-                    Test
+                    Title
                 </Title>
                 <Paragraph>
-                    Параграф
+                    Paragraph
                 </Paragraph>
             </div>
         );
